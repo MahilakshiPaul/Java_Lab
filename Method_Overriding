@@ -1,0 +1,17 @@
+class India{
+    public void indian(){
+        System.out.println("I am Indian");
+    }
+}
+class Student extends India {
+    public void indian() {
+        System.out.println("Student of India");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        India ind = new Student(); 
+        ind.indian(); 
+    }
+}
